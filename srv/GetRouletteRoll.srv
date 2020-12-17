@@ -1,0 +1,4 @@
+string color
+int64 number
+---
+string roll_result
