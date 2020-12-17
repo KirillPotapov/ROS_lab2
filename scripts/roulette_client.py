@@ -28,7 +28,7 @@ if __name__ == "__main__":
         random.shuffle(color_list)
         color = color_list[0]
 
-        number = random.randrange(0, 36)
+        number = random.randrange(0, 37)
         print(f"Requesting roll result for: {color} {number}")
         print(roulette_client(color, number))
         rate.sleep()
